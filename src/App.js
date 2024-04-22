@@ -1,23 +1,20 @@
+/*
+ * @Author: sungen
+ * @since: 2024-04-20 17:39:02
+ * @desc: 
+ * @LastEditTime: 2024-04-22 10:00:50
+ * @LastEditors: sungen
+ */
 import logo from './logo.svg';
 import './App.css';
+import ClickCount from './ClickCount.tsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ClickCount counterCaption='第一个按钮'/>
+      <ClickCount counterCaption='第二个按钮'/>
+      <ClickCount counterCaption='第三个按钮'/>
     </div>
   );
 }
