@@ -1,13 +1,21 @@
+/*
+ * @Author: sungen
+ * @since: 2024-04-20 17:39:02
+ * @desc: 
+ * @LastEditTime: 2024-04-23 11:52:59
+ * @LastEditors: sungen
+ */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Page from './context/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Page />
   </React.StrictMode>
 );
 
